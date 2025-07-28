@@ -1,0 +1,9 @@
+.mylove {
+  font-style: default;
+  border-style: solid;
+  border-color: darkmagenta;
+}
+
+h1.dashed {
+  border-style: dashed;
+}

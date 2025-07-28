@@ -1,0 +1,51 @@
+.test {
+  color: hotpink;
+  font-style: italic;
+  font-size: 70px;
+}
+
+.diw {
+  position: relative;
+  left: 250px;
+}
+
+.gif {
+  position: relative;
+  left: 394px;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: absolute;
+  left: 590px;
+  top: 600px;
+}
+
+.button {
+  padding: 70;
+  height: auto;
+  width: auto;
+  display: text;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttoncontainer {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  background: darkgray;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(225, 0, 102, 0); 
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.buttoncontainer:hover {
+  box-shadow: 0 10px 20px rgba(119, 84, 84, 1);
+  transform: translateY(-3px);
+}
